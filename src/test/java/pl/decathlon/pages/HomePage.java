@@ -12,7 +12,6 @@ public class HomePage {
     @FindBy(id = "didomi-notice-agree-button")
     private WebElement acceptAll;
 
-
     @FindBy(css = ".menu-button")
     private WebElement menuButton;
 

@@ -1,3 +1,10 @@
+# To do
+1. Poprawić lokalizatory
+2. dodać logi
+3. znaleść rozwiązanie ze script exectutorem
+4. pododawać logi i asercje
+5. dokończyć md
+
 # decathlon-page-object-java-selenium
 
 
@@ -14,10 +21,15 @@
 
 
 # Description
-Introduction...
+The project is made in the page object pattern. I am testing the website decathlon.pl.
 
-- Technology 1
-- Technology 2
+
+
+Reports are generated in:
+
+## Technologies :
+- Java
+- Selenium
 
 # How To Use
 

@@ -36,9 +36,10 @@ public class BaseTest {
     @BeforeMethod
     public void setup() throws IOException {
         driver = DriverFactory.getDriver();
-//        driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://www.decathlon.pl");
+
     }
 
     @AfterMethod
