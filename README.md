@@ -1,10 +1,3 @@
-# To do
-1. Poprawić lokalizatory
-2. dodać logi
-3. znaleść rozwiązanie ze script exectutorem
-4. pododawać logi i asercje
-5. dokończyć md
-
 # decathlon-page-object-java-selenium
 
 
@@ -16,34 +9,50 @@
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [Provided Resources](#provided-resources)
 - [Author Info](#author-info)
 
 
 # Description
-The project is made in the page object pattern. I am testing the website decathlon.pl.
+An example of an automated test project. Written in Java Selenium in Page Object Pattern.
+It presents a simple journey through the decathlon.pl website.
+Libraries for creating reports are implemented, e.g. 
 
+The selectors are not perfectly added, so they may become outdated if the page is modified.
 
-
-Reports are generated in:
+I plan to continue developing it.
 
 ## Technologies :
 - Java
 - Selenium
+- webdrivermanager
+- log4j
+- testng
+- extentreports
 
 # How To Use
 
-
-
-# Provided Resources
+#### Installation
+Expand the green code button.
+Copy the code with the command:
+```
+git clone + copied path
+```
+You can download the necessary dependencies with 
 
 ```html
-    <p>dummy code</p>
+mvn dependency:resolve
 ```
 
+### How to run?
 
 
+Right click on on HomePageTest and find Run HomePageTest
 
-# Author Info
+---
 
-- Github: [Piotr Slowik](https://github.com/piotrslowik89)
+
+## Author Info
+
+- linkedin - [Piotr Slowik](www.linkedin.com/in/piotrslowik409)
+
+[Back To The Top](#decathlon-page-object-java-selenium)
